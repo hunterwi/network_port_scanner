@@ -1,0 +1,44 @@
+# ======================================================
+# 🛡️  Scanner de Ports Réseau – Requirements
+# ======================================================
+
+# Modules Python standard utilisés (aucune dépendance externe requise) :
+# ----------------------------------------------------------------------
+# socket            : Communication réseau et scan de ports
+# threading         : Multithreading pour vitesse et performance
+# concurrent.futures: ThreadPoolExecutor pour parallélisation facile
+# time              : Gestion des temporisations et délais
+# argparse          : Interface en ligne de commande
+# sys               : Fonctions système de base
+# json              : Exportation des résultats au format JSON
+# csv               : Exportation des résultats au format CSV
+# datetime          : Gestion des dates et timestamps
+# ipaddress         : Manipulation d'adresses IP et réseaux CIDR
+# subprocess        : Exécution de commandes système (ex: ping)
+# re                : Expressions régulières pour analyse des bannières
+# io                : Gestion des flux et chaînes en mémoire
+
+# 💡 Python recommandé : 3.8+
+# (Modules ipaddress et concurrent.futures disponibles depuis 3.3/3.2)
+
+# Pour installer des dépendances supplémentaires (optionnel) :
+# -------------------------------------------------------------
+# python-nmap>=0.7.1  : Interface Python pour Nmap (scan avancé)
+# scapy>=2.4.5        : Manipulation de paquets réseau
+# colorama>=0.4.0     : Couleurs dans la console
+# rich>=13.0.0        : Tableaux et interface console avancée
+# click>=8.1.0        : CLI alternative à argparse
+# requests>=2.31.0    : Détection de services web
+# asyncio             : Programmation asynchrone (3.4+)
+
+# 🔥 Pour des scans à grande échelle (outils externes) :
+# -------------------------------------------------------
+# masscan             : Scanner réseau ultra-rapide
+# zmap                : Scanner réseau à grande échelle
+
+# ⚠️ Sécurité et permissions :
+# -------------------------------------------------------
+# Certains scans peuvent nécessiter des privilèges administrateur
+# Respectez les lois locales et utilisez cet outil uniquement :
+# - sur vos systèmes
+# - ou avec autorisation explicite
